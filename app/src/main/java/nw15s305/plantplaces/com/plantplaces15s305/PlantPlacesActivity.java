@@ -1,14 +1,14 @@
 package nw15s305.plantplaces.com.plantplaces15s305;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 /**
  * Created by jonesb on 4/7/2015.
  */
-public abstract class PlantPlacesActivity extends ActionBarActivity {
+public abstract class PlantPlacesActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
